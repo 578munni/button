@@ -1,0 +1,25 @@
+.container{
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+  padding: 25px 0;
+  text-align: center;
+  background-color: rgb(57, 243, 243);
+  border-radius: 10px;
+ 
+}
+#count{
+  color: rgb(8, 8, 228);
+  font-size: 25px;
+}
+button{
+  font-size: 30px;
+  padding: 20px 25px;
+  margin: 12px;
+  color: green;
+  border-radius: 5px;
+}
+button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
